@@ -1,0 +1,86 @@
+[
+
+    {
+        "id":1,
+        "src":"img/crown.png",
+        "heading-primary-main":"Outdoors",
+        "heading-primary-sub":"is where life happenes",
+        "btn":"Disover Our Tools"
+    },
+    {
+        "id":2,
+        "heading-secondary":"exciting tours for adventure",
+        "heading-tertiary-1":"you are going to fall in love with nature",
+        "paragraph-1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium, orci et interdum mollis, risus neque volutpat orci, eu tincidunt risus leo a sem. Fusce commodo, nisl eget aliquam lacinia, justo nisl ullamcorper nunc, a suscipit justo risus ac odio. Maecenas aliquet, mi eu rhoncus ullamcorper, velit sem gravida velit, id viverra felis nunc ac odio. Integer pellentesque, felis ac pellentesque aliquam, lorem elit tristique turpis, a facilisis sem lorem eu ipsum. Praesent pharetra, metus eu vulputate consectetur, justo erat aliquet odio, eu cursus metus ipsum at arcu. Nullam gravida, tortor nec efficitur luctus, enim massa consectetur elit, vitae pellentesque ex ipsum et purus. Aliquam erat volutpat. Vivamus quis tellus eu mi laoreet vulputate. Nulla facilisi. Sed a ante eu lacus vehicula lacinia. Aenean nec mi vitae quam aliquam tincidunt. Integer eu elit at ipsum faucibus tempor. Donec eu odio a ligula blandit ullamcorper.",
+        "paragraph-2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium, orci et interdum mollis, risus neque volutpat orci, eu tincidunt risus leo a sem. Fusce commodo, nisl eget aliquam lacinia, justo nisl ullamcorper nunc, a suscipit justo risus ac odio. Maecenas aliquet, mi eu rhoncus ullamcorper, velit sem gravida velit, id viverra felis nunc ac odio. Integer pellentesque, felis ac pellentesque aliquam, lorem elit tristique turpis, a facilisis sem lorem eu ipsum. Praesent pharetra, metus eu vulputate consectetur, justo erat aliquet odio, eu cursus metus ipsum at arcu. Nullam gravida, tortor nec efficitur luctus, enim massa consectetur elit, vitae pellentesque ex ipsum et purus. Aliquam erat volutpat. Vivamus quis tellus eu mi laoreet vulputate. Nulla facilisi. Sed a ante eu lacus vehicula lacinia. Aenean nec mi vitae quam aliquam tincidunt. Integer eu elit at ipsum faucibus tempor. Donec eu odio a ligula blandit ullamcorper.",
+        "src1":"img/gallery-img-1.jpeg",
+        "src2":"img/gallery-img-2.jpeg",
+        "src3":"img/gallery-img-3.jpeg",
+        "heading-tertiary-2":"live adventures like you never have before",
+        "btn-text":"learn more"
+    },
+    {
+        "id":3,
+        "heading-secondary-2":"most popular tours",
+        "card-heading-1":"the sea explorer",
+        "list-item-1":"3 day tour",
+        "list-item-2":"up to 30 people",
+        "list-item-3":"2 tour guides",
+        "list-item-4":"sleep in couzy hotels",
+        "list-item-5":"Dificulty: easy",
+        "card-price-only-1":"Only",
+        "card-price-value-1":"$297",
+        "book-now":"book now",
+        "card-heading-2":"the forest Hiker",
+        "list_item_1":"7 day tour",
+        "list_item_2":"up to 40 people",
+        "list_item_3":"6 tour guides",
+        "list_item_4":"sleep in provided tents",
+        "list_item_5":"Dificulty: medium",
+        "card-price-only-2":"Only",
+        "card-price-value-2":"$497",
+        "book-now-2":"book now",
+        "card-heading-3":"the snow explorer",
+        "item-list-1":"5 day tour",
+        "item-list-2":"up to 15 people",
+        "item-list-3":"3 tour guides",
+        "item-list-4":"sleep in provided tents",
+        "item-list-5":"Dificulty: hard",
+        "card-price-only-3":"only",
+        "card-price-value-3":"$897",
+        "book-now-3":"book now",
+        "discover":"Discover all tours"
+    },
+    {
+        "id":4,
+        "heading-secondary-3":"we make people genuinely happy",
+        "story-caption":"mary smith",
+        "heading-tertiary-3":"i had the best week ever with my family",
+        "paragraph-3":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae minus iure nemo excepturi harum, veritatis, tempora at tenetur dolor est corporis velit! Dolorum est ullam quidem cum illovoluptates repellendus corrupti, qui voluptatibus debitis iure ex nostrum animi impedit temporamaiores sit! Deleniti nobis aperiam earum odit molestias maiores iusto minima minus autem.Excepturi rem quis sed assumenda ullam modi.",
+        "story-caption-2":"jack wilson",
+        "heading-tertiary-4":"wow my life is completely diffenet now",
+        "paragraph-4":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae minus iure nemo excepturiharum, veritatis, tempora at tenetur dolor est corporis velit! Dolorum est ullam quidem cum illovoluptates repellendus corrupti, qui voluptatibus debitis iure ex nostrum animi impedit temporamaiores sit! Deleniti nobis aperiam earum odit molestias maiores iusto minima minus autem.Excepturi rem quis sed assumenda ullam modi.",
+        "btn-text-2":"Read all stories"
+    },
+    {
+        "id":5,
+        "heading-secondary-4":"start booking now",
+        "form-label-1":"full name",
+        "form-label-2":"Email adress",
+        "form-radio-label-1":"small tour",
+        "form-radio-label-2":"large tour"
+
+    },
+    {
+        "id":6,
+        "heading-secondary-5":"start booking now",
+        "heading-tertiary-5":"please reade these terms before booking",
+        "popup-text":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae commodi nonducimus, sint aut, architecto quis temporibus laboriosam voluptate esse ratione unde iusto, isteveritatis. Atque quis aut fugit eaque earum similique accusamus quod id unde commodi laboriosamvelit rem labore quia provident quos minus nulla, necessitatibus aperiam? Porro earum excepturi nam,illum nemo sapiente mollitia doloribus ratione aspernatur voluptas. Distinctio facilis nobis isteaccusamus necessitatibus reiciendis quam impedit eos sapiente libero odit officia consequatur ametpraesentium consectetur officiis error, voluptatum eius repellendus repudiandae illum commodidolorem. Iure corporis quo praesentium repellendus. Obcaecati quaerat nesciunt quod neque quis esseculpa!",
+        "book-now-4":"book now"
+
+    }
+
+
+
+]
+    

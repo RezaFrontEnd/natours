@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "location":"tehran",
+        "country":"iran",
+        "tempeature":"18deg"
+        
+    },
+    {
+        "id":2,
+        "location":"karaj",
+        "country":"iran",
+        "tempeature":"20deg"
+    }
+]

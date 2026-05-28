@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container
+{
+    background-color: #ccc;
+    padding:10px;
+    height: 1000px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    align-content:stretch;
+}
+.item
+{
+    background-color: #f1425d;
+    padding:30px;
+    margin:5px;
+    color:#fff;
+    font-size: 40px;
+    /* flex:1; */
+
+}
+/* .i2
+{
+    height: 200px;
+    flex:3;
+    flex-basis:300px;
+    flex:1 1 300px;
+} 
+.i4
+{
+    align-self:flex-end;
+    order:1;
+}
+.i3
+{
+    order:-1;
+    flex:1;
+} */

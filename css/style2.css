@@ -1,0 +1,136 @@
+*,&::after,&::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.clear-fix::after
+{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+:root {
+    --color-primary:#c69963;
+    --color-primary-dark:#B28451;
+    --color-secondary:#101d2c;
+    --color-gray-light-1:#f9f7f6;
+    --color-gray-light-2:#aaa;
+    --color-gray-dark-1:#54483a;
+    --color-gray-dark-2:#6d5d4b;
+    --font-primary:"Nunito",sans-serif;
+    --font-display:"Josefin Sans",sans-serif;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size:62.5%;
+}
+
+body{
+    font-family: var(--font-primary);
+    font-weight: 300;
+    line-height:1.6;
+    font-size: 16px;
+}
+.container
+{
+    display: grid;
+    grid-template-rows:80vh min-content 40vw repeat(3,min-content);
+    grid-template-columns:[sidebar-start] 8rem [sidbar-end full-start] minmax(6rem,1fr) [center-start] repeat(8,[col-start]minmax(min-content, 14rem)[col-end])[center-end] 1fr [full-end];
+    /* & >*
+    {
+        padding:40px;
+        font-size:3rem;
+    } */
+
+}
+.sidebar
+{
+    background-color:var(--color-primary);
+    grid-column:sidebar-start/sidbar-end;
+    grid-row:1 /-1;
+}
+.features
+{
+    /* background-color:var(--color-gray-light-2); */
+    grid-column:center-start/center-end;
+    margin:15rem 0;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:6rem;
+    align-items:start;
+}
+.feature
+{
+    display:grid;
+    grid-template-columns:min-content 1fr;
+    grid-row-gap:1.5rem;
+    grid-column-gap:2.5rem;
+    
+
+    >.feature-icon
+    {
+        fill:var(--color-primary);
+        width: 4.5rem;
+        height: 4.5rem;
+        grid-row:1/span 2;
+        transform:translateY(-1rem);
+    }
+    >.feature-text
+    {
+        font-size: 1.7rem;
+    }
+}
+.heading-4
+{
+    font-family:var(--font-display);
+    font-weight: 400;
+    >.light
+    {
+        color:var(--color-gray-light-1);
+    }
+    >.dark
+    {
+        color:var(--color-gray-dark-1);
+    }
+}
+.header
+{
+    background-color:var(--color-gray-dark-1);
+    grid-column:full-start/col-end 6;
+}
+.realtors
+{
+    background-color:var(--color-secondary);
+    grid-column:col-start 7/full-end;
+}
+.story-pictures
+    {
+        background-color:var(--color-primary);
+        grid-column:full-start/col-end 4;
+    }
+.story-content
+  {
+    background-color:var(--color-gray-light-1);
+    grid-column:col-start 5/full-end;
+  }
+
+.homes
+{
+    background-color:var(--color-secondary);
+    grid-column:center-start/center-end;
+}
+.footer
+{
+    background-color:var(--color-secondary);
+    grid-column:full-start/full-end;
+}
+.gallery
+{
+    background-color:var(--color-gray-dark-1);
+    grid-column:full-start/full-end;
+}
